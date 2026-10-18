@@ -3,67 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#12372a">
-  <meta name="description" content="Sparks Adventures — small-group escapes, local discovery, and meaningful adventures across Kenya.">
-  <title>Sparks Adventures | Find your next escape</title>
+  <meta name="theme-color" content="#102d23">
+  <meta name="description" content="Sparks Adventures brings curious people together to discover Kenya through thoughtful small-group escapes, local stories and memorable experiences. A venture in the Spark Stack International ecosystem.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sparks Adventures — Take the road less ordinary">
+  <meta property="og:description" content="Discover Kenya differently. Small-group escapes, local experiences and stories worth carrying home.">
+  <meta property="og:url" content="https://phinehas-hashi.github.io/Sparks-Adventures/">
+  <title>Sparks Adventures | Discover Kenya differently</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
 </head>
 <body>
+  <div class="ecosystem-bar">
+    <span>Curiosity connects us.</span>
+    <a href="https://phinehas-hashi.github.io/spark-stack-international/" target="_blank" rel="noopener noreferrer">Part of the Spark Stack International ecosystem <span aria-hidden="true">↗</span></a>
+  </div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Sparks Adventures home"><span class="brand-mark">S</span><span>Sparks <b>Adventures</b></span></a>
+    <a class="brand" href="#home" aria-label="Sparks Adventures home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M28.5 8.5c-2.2-2-5-3-8.7-3C12.5 5.5 8 9.2 8 14c0 10.2 17.3 6.4 17.3 13 0 2.8-2.8 4.7-6.7 4.7-3.3 0-6.7-1.4-9.2-4.2" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><path d="M30 20l2.2 4.8 5.3.6-3.9 3.5 1.1 5.1-4.7-2.6-4.6 2.6 1-5.1-3.8-3.5 5.2-.6z" fill="#e8ad68"/></svg></span>
+      <span class="brand-words">sparks<span>adventures</span></span>
+    </a>
     <nav aria-label="Main navigation">
-      <a href="#why">Our vibe</a>
-      <a href="#pilot">First escape</a>
-      <a class="nav-cta" href="#interest">Join the list</a>
+      <a href="#approach">Our approach</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#first-escape">First escape</a>
+      <a class="nav-cta" href="#interest">Join the journey <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
   <main id="home">
     <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> SMALL GROUPS. BIG MEMORIES.</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> KENYA IS CLOSER THAN YOU THINK</p>
         <h1>Take the road<br>less <em>ordinary.</em></h1>
-        <p class="hero-lede">Real places, good people, and stories worth telling. We're building a community for affordable, thoughtful adventures across Kenya.</p>
-        <div class="hero-actions"><a class="button button-light" href="#pilot">Explore the first idea <span>↗</span></a><a class="text-link" href="#why">Get to know us ↓</a></div>
-        <p class="hero-note">Built around people, not package-tour pressure.</p>
+        <p class="hero-lede">New places. Good people. Stories that stay with you. We're building a more thoughtful way to explore Kenya—one small-group adventure at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#experiences">Explore the possibilities <span aria-hidden="true">↗</span></a>
+          <a class="quiet-link" href="#approach">What we're about <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-proof"><span class="proof-star">✳</span><span><b>Made for the curious.</b><br>Designed around people, place and purpose.</span></div>
       </div>
-      <div class="hero-art" role="img" aria-label="Illustrated sunset over a Kenyan landscape">
-        <div class="sun"></div><div class="bird bird-one">⌁</div><div class="bird bird-two">⌁</div>
-        <div class="ridge ridge-back"></div><div class="ridge ridge-front"></div>
-        <div class="water"></div><div class="shore"></div>
-        <div class="art-label"><span>01 / TURKANA</span><b>Find your wild</b></div>
+      <div class="hero-scene" role="img" aria-label="Stylised Kenyan landscape at golden hour, with hills and a lake">
+        <div class="scene-sun"></div><div class="scene-orbit"></div><div class="scene-bird bird-a">⌁</div><div class="scene-bird bird-b">⌁</div>
+        <div class="scene-ridge ridge-a"></div><div class="scene-ridge ridge-b"></div><div class="scene-water"></div><div class="scene-shore"></div>
+        <div class="scene-stamp"><span>THE FIRST CHAPTER</span><b>Turkana, Kenya</b><i>03°07′N · 35°36′E</i></div>
+        <div class="scene-index">SA / 001</div>
       </div>
-      <div class="hero-bottom"><span>KENYA, THROUGH A DIFFERENT LENS</span><span>CURIOUS BY NATURE <b>✳</b></span></div>
+      <div class="hero-foot"><span>DISCOVER NEARER. FEEL MORE.</span><span>COMMUNITY · CULTURE · OPEN ROADS</span></div>
     </section>
 
-    <section class="intro section" id="why">
-      <div><p class="eyebrow dark">THE SPARKS WAY</p><h2>Less scrolling.<br><em>More living.</em></h2></div>
-      <div class="intro-text"><p>Sparks Adventures is an early-stage travel community bringing people together to discover places, support local experiences, and make the journey count.</p><p>We start small, listen carefully, and only confirm a trip when the route, transport, costs, and safety details make sense.</p><div class="values"><span>01&nbsp; Community first</span><span>02&nbsp; Local discovery</span><span>03&nbsp; Clear costs</span></div></div>
+    <section class="intro section" id="approach">
+      <div class="intro-heading"><p class="eyebrow eyebrow-dark">A DIFFERENT KIND OF GETAWAY</p><h2>Go beyond<br>the <em>usual.</em></h2><div class="heading-rule"></div></div>
+      <div class="intro-copy"><p class="intro-lead">The best journeys aren't just about where you go. They're about what you discover along the way.</p><p>Sparks Adventures is an emerging travel and experiences brand connecting curious people with local places, landscapes and stories across Kenya. We want adventure to feel welcoming, considered and worth remembering—not complicated or out of reach.</p><p>We start with listening, honest budgets and careful planning. Trips only become bookable when the details are checked and the plan is ready.</p><a class="inline-link" href="#first-escape">Meet our first trip concept <span aria-hidden="true">→</span></a></div>
     </section>
 
-    <section class="pilot section" id="pilot">
-      <div class="section-heading"><div><p class="eyebrow dark">THE FIRST IDEA</p><h2>Turkana, <em>calling.</em></h2></div><span class="status">PLANNING STAGE · NOT CONFIRMED</span></div>
-      <div class="pilot-card">
-        <div class="pilot-visual"><div class="pilot-sun"></div><div class="pilot-hill"></div><div class="pilot-water"></div><span class="visual-caption">ELIYE SPRINGS · LAKE TURKANA</span></div>
-        <div class="pilot-info"><p class="eyebrow dark">PILOT CONCEPT / 001</p><h3>Eliye Springs Escape</h3><p>A proposed day escape from Lodwar to the shores of Lake Turkana, with time to unwind, meet people, and take in the landscape.</p><div class="trip-facts"><div><small>PROPOSED DATE</small><b>20 Dec 2026</b></div><div><small>STARTING POINT</small><b>Lodwar, Turkana</b></div><div><small>GROUP SIZE</small><b>4–6 people</b></div><div><small>PRICE</small><b>Not set yet</b></div></div><div class="caution"><b>Before anything is confirmed</b><p>Road conditions, the sandy final stretch, safe transport, access, local costs, weather, and a daylight return plan must all be checked. A passenger-carrying motorcycle is not the default group transport plan.</p></div><a class="button button-dark" href="#interest">Register your interest <span>↗</span></a><p class="fine-print">This is an expression of interest only—not a booking or payment request.</p></div>
+    <section class="experiences section" id="experiences">
+      <div class="section-top"><div><p class="eyebrow eyebrow-dark">WHAT THE JOURNEY COULD LOOK LIKE</p><h2>Find your kind<br>of <em>outside.</em></h2></div><p class="section-side-note">The experiences below are directions we're exploring—not a live catalogue of confirmed trips.</p></div>
+      <div class="experience-grid">
+        <article class="experience-card experience-lake"><div class="experience-art" aria-hidden="true"><span class="art-sun"></span><span class="art-mountain"></span><span class="art-lake"></span><span class="art-palm">♧</span></div><div class="experience-body"><span class="card-number">01 / LANDSCAPES</span><h3>Chase the horizon</h3><p>Lakeshores, wide skies, scenic drives and places that invite you to slow down.</p><span class="card-tag">Nature escapes</span></div></article>
+        <article class="experience-card experience-culture"><div class="experience-art" aria-hidden="true"><span class="culture-sun"></span><span class="culture-arch"></span><span class="culture-ground"></span><span class="culture-mark">✳</span></div><div class="experience-body"><span class="card-number">02 / LOCAL STORIES</span><h3>Meet the place</h3><p>Thoughtful cultural experiences built with respect for local people, knowledge and livelihoods.</p><span class="card-tag">Culture & connection</span></div></article>
+        <article class="experience-card experience-crew"><div class="experience-art" aria-hidden="true"><span class="crew-moon"></span><span class="crew-hill"></span><span class="crew-person person-a"></span><span class="crew-person person-b"></span><span class="crew-person person-c"></span></div><div class="experience-body"><span class="card-number">03 / GOOD COMPANY</span><h3>Come as you are</h3><p>Small-group meetups for new friendships, shared discovery and stories made together.</p><span class="card-tag">Community trips</span></div></article>
       </div>
+    </section>
+
+    <section class="featured section" id="first-escape">
+      <div class="featured-top"><div><p class="eyebrow">FIELD NOTES / 001</p><h2>The first idea:<br><em>Eliye Springs.</em></h2></div><span class="planning-pill"><span></span> EARLY PLANNING</span></div>
+      <div class="featured-layout">
+        <div class="featured-art" role="img" aria-label="Illustrated golden sun over the waters of Lake Turkana"><div class="featured-sun"></div><div class="featured-back"></div><div class="featured-front"></div><div class="featured-water"></div><div class="featured-shimmer"></div><span class="featured-caption">ELIYE SPRINGS · LAKE TURKANA</span><span class="featured-coord">TURKANA COUNTY, KENYA</span></div>
+        <div class="featured-detail"><p class="featured-kicker">A PROPOSED DAY ESCAPE FROM LODWAR</p><h3>Make room for a new story.</h3><p>A first look at a day trip to the shores of Lake Turkana: time to unwind, enjoy the landscape and meet fellow explorers. The idea is being assessed before any commitment is made.</p><div class="detail-grid"><div><span>PROPOSED DATE</span><b>20 December 2026</b></div><div><span>STARTING POINT</span><b>Lodwar, Turkana</b></div><div><span>GROUP SIZE</span><b>4–6 people</b></div><div><span>PRICE</span><b>Not set</b></div></div><div class="safety-note"><span aria-hidden="true">✳</span><p><b>Good adventures start with good planning.</b><br>Transport, road access, local fees, weather, facilities and a safe daylight return plan must be verified. This is not a confirmed trip or a booking offer.</p></div><a class="button button-dark" href="#interest">Tell us you're interested <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="principles section">
+      <div class="principles-title"><p class="eyebrow eyebrow-dark">OUR PROMISE TO THE JOURNEY</p><h2>Adventure, with<br><em>intention.</em></h2></div>
+      <div class="principles-list"><article><span>01</span><div><h3>People before packages</h3><p>Build trips around real interests, welcoming groups and shared experiences.</p></div></article><article><span>02</span><div><h3>Local knowledge matters</h3><p>Listen to local guidance and aim to support the people and places that host us.</p></div></article><article><span>03</span><div><h3>Clear plans. Clear costs.</h3><p>Be upfront about what is known, what is included and what still needs checking.</p></div></article><article><span>04</span><div><h3>Safety is part of the adventure</h3><p>Verify routes, transport, access and practical risks before inviting anyone to book.</p></div></article></div>
+    </section>
+
+    <section class="ecosystem-connect">
+      <div class="ecosystem-symbol" aria-hidden="true"><span>S</span><i>✳</i></div>
+      <div class="ecosystem-copy"><p class="eyebrow">ONE ECOSYSTEM. MANY POSSIBILITIES.</p><h2>Powered by a bigger<br><em>spark.</em></h2><p>Sparks Adventures is being developed as part of the wider Spark Stack International ecosystem—a technology company building connected digital products and ventures. The long-term vision is for each venture to have its own identity while benefiting from shared technology, thoughtful design and a connected digital foundation.</p><a class="ecosystem-link" href="https://phinehas-hashi.github.io/spark-stack-international/" target="_blank" rel="noopener noreferrer">Explore Spark Stack International <span aria-hidden="true">↗</span></a></div>
+      <div class="ecosystem-meta"><span>INDEPENDENT BRAND</span><b>Sparks Adventures</b><span>ECOSYSTEM CONNECTION</span><b>Spark Stack International</b><span class="ecosystem-status">Shared digital foundation · evolving</span></div>
     </section>
 
     <section class="join section" id="interest">
-      <div class="join-copy"><p class="eyebrow">BE PART OF THE START</p><h2>Your next story<br>could start <em>here.</em></h2><p>Tell us what kind of adventure you'd be interested in. We'll use the feedback to understand demand before committing to fees or bookings.</p><div class="join-points"><span>✳ No payment required</span><span>✳ No confirmed trip yet</span><span>✳ Help shape the plan</span></div></div>
-      <form id="interest-form" class="interest-form">
+      <div class="join-copy"><p class="eyebrow">HELP SHAPE WHAT COMES NEXT</p><h2>Your next story<br>could start <em>here.</em></h2><p>Tell us what kind of experience you'd consider joining. Your feedback helps us understand interest before committing to a route, price or booking.</p><div class="join-points"><span>✳ No payment required</span><span>✳ No trip confirmed yet</span><span>✳ Your input helps shape the idea</span></div></div>
+      <form id="interest-form" class="interest-form"><div class="form-heading"><span>SPARKS / COMMUNITY</span><b>Expression of interest</b></div>
         <label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Name you go by">
         <div class="field-row"><div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><div><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+254..."></div></div>
-        <label for="group">How many people might join?</label><select id="group" name="group"><option value="1">Just me</option><option value="2">2 people</option><option value="3-4">3–4 people</option><option value="5+">5 or more</option></select>
-        <label for="transport">Preferred transport</label><select id="transport" name="transport"><option value="organised">Organised group transport</option><option value="own">I'd travel independently</option><option value="unsure">Not sure yet</option></select>
-        <label for="message">Anything you'd like us to know? (optional)</label><textarea id="message" name="message" rows="3" placeholder="Budget, interests, questions..."></textarea>
-        <button class="button button-light submit-button" type="submit">Preview my interest note <span>↗</span></button>
-        <p class="form-disclaimer">Prototype form: your details are not sent or saved anywhere yet. Submitting creates a message you can copy and send yourself.</p>
-        <div id="form-result" class="form-result" role="status" aria-live="polite" hidden></div>
+        <label for="interest-type">What are you interested in?</label><select id="interest-type" name="interest-type"><option value="Eliye Springs Escape">Eliye Springs Escape</option><option value="Nature and scenic trips">Nature and scenic trips</option><option value="Culture and local experiences">Culture and local experiences</option><option value="Community meetups">Community meetups</option><option value="Future adventures">Future adventures</option></select>
+        <label for="group">How many people might join?</label><select id="group" name="group"><option value="Just me">Just me</option><option value="2 people">2 people</option><option value="3–4 people">3–4 people</option><option value="5+ people">5 or more</option></select>
+        <label for="message">Anything you'd like us to know? <span>(optional)</span></label><textarea id="message" name="message" rows="3" placeholder="Interests, budget, questions..."></textarea>
+        <button class="button button-gold submit-button" type="submit">Prepare my interest note <span aria-hidden="true">↗</span></button>
+        <p class="form-disclaimer">This is a prototype form. Your details are not transmitted to or stored by Sparks Adventures. Submitting prepares a note for you to copy and send yourself.</p><div id="form-result" class="form-result" role="status" aria-live="polite" hidden></div>
       </form>
     </section>
   </main>
-  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>Sparks <b>Adventures</b></span></a><p>Curiosity takes us places.</p><span>© <span id="year"></span> Sparks Adventures · Early-stage concept</span></footer>
+  <footer><div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M28.5 8.5c-2.2-2-5-3-8.7-3C12.5 5.5 8 9.2 8 14c0 10.2 17.3 6.4 17.3 13 0 2.8-2.8 4.7-6.7 4.7-3.3 0-6.7-1.4-9.2-4.2" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><path d="M30 20l2.2 4.8 5.3.6-3.9 3.5 1.1 5.1-4.7-2.6-4.6 2.6 1-5.1-3.8-3.5 5.2-.6z" fill="#e8ad68"/></svg></span><span class="brand-words">sparks<span>adventures</span></span></a><p>Curiosity takes us places.</p></div><div class="footer-links"><a href="#approach">Our approach</a><a href="#experiences">Experiences</a><a href="#interest">Join the journey</a><a href="https://phinehas-hashi.github.io/spark-stack-international/" target="_blank" rel="noopener noreferrer">Spark Stack International ↗</a></div><div class="footer-bottom"><span>© <span id="year"></span> Sparks Adventures</span><span>An emerging venture in the Spark Stack International ecosystem.</span><a href="#home">Back to top ↑</a></div></footer>
 </body>
 </html>
