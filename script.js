@@ -14,15 +14,17 @@ if (form && result) {
       `Name: ${data.get("name")}`,
       `Email: ${data.get("email")}`,
       `Phone: ${data.get("phone") || "Not provided"}`,
+      `Interested in: ${data.get("interest-type")}`,
       `Group size: ${data.get("group")}`,
-      `Transport preference: ${data.get("transport")}`,
       `Notes: ${data.get("message") || "None"}`,
       "",
-      "I understand this is an expression of interest only. The trip is not confirmed and no payment has been made."
+      "I understand this is an expression of interest only. No trip is confirmed and no payment has been made.",
+      "",
+      "Sparks Adventures is an emerging venture in the Spark Stack International ecosystem."
     ].join("\n");
 
     result.hidden = false;
-    result.textContent = "";
+    result.replaceChildren();
     const intro = document.createElement("p");
     intro.textContent = "Your note is ready below. This prototype has not sent or saved your details.";
     const preview = document.createElement("pre");
