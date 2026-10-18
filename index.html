@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12372a">
+  <meta name="description" content="Sparks Adventures — small-group escapes, local discovery, and meaningful adventures across Kenya.">
+  <title>Sparks Adventures | Find your next escape</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Sparks Adventures home"><span class="brand-mark">S</span><span>Sparks <b>Adventures</b></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#why">Our vibe</a>
+      <a href="#pilot">First escape</a>
+      <a class="nav-cta" href="#interest">Join the list</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> SMALL GROUPS. BIG MEMORIES.</p>
+        <h1>Take the road<br>less <em>ordinary.</em></h1>
+        <p class="hero-lede">Real places, good people, and stories worth telling. We're building a community for affordable, thoughtful adventures across Kenya.</p>
+        <div class="hero-actions"><a class="button button-light" href="#pilot">Explore the first idea <span>↗</span></a><a class="text-link" href="#why">Get to know us ↓</a></div>
+        <p class="hero-note">Built around people, not package-tour pressure.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustrated sunset over a Kenyan landscape">
+        <div class="sun"></div><div class="bird bird-one">⌁</div><div class="bird bird-two">⌁</div>
+        <div class="ridge ridge-back"></div><div class="ridge ridge-front"></div>
+        <div class="water"></div><div class="shore"></div>
+        <div class="art-label"><span>01 / TURKANA</span><b>Find your wild</b></div>
+      </div>
+      <div class="hero-bottom"><span>KENYA, THROUGH A DIFFERENT LENS</span><span>CURIOUS BY NATURE <b>✳</b></span></div>
+    </section>
+
+    <section class="intro section" id="why">
+      <div><p class="eyebrow dark">THE SPARKS WAY</p><h2>Less scrolling.<br><em>More living.</em></h2></div>
+      <div class="intro-text"><p>Sparks Adventures is an early-stage travel community bringing people together to discover places, support local experiences, and make the journey count.</p><p>We start small, listen carefully, and only confirm a trip when the route, transport, costs, and safety details make sense.</p><div class="values"><span>01&nbsp; Community first</span><span>02&nbsp; Local discovery</span><span>03&nbsp; Clear costs</span></div></div>
+    </section>
+
+    <section class="pilot section" id="pilot">
+      <div class="section-heading"><div><p class="eyebrow dark">THE FIRST IDEA</p><h2>Turkana, <em>calling.</em></h2></div><span class="status">PLANNING STAGE · NOT CONFIRMED</span></div>
+      <div class="pilot-card">
+        <div class="pilot-visual"><div class="pilot-sun"></div><div class="pilot-hill"></div><div class="pilot-water"></div><span class="visual-caption">ELIYE SPRINGS · LAKE TURKANA</span></div>
+        <div class="pilot-info"><p class="eyebrow dark">PILOT CONCEPT / 001</p><h3>Eliye Springs Escape</h3><p>A proposed day escape from Lodwar to the shores of Lake Turkana, with time to unwind, meet people, and take in the landscape.</p><div class="trip-facts"><div><small>PROPOSED DATE</small><b>20 Dec 2026</b></div><div><small>STARTING POINT</small><b>Lodwar, Turkana</b></div><div><small>GROUP SIZE</small><b>4–6 people</b></div><div><small>PRICE</small><b>Not set yet</b></div></div><div class="caution"><b>Before anything is confirmed</b><p>Road conditions, the sandy final stretch, safe transport, access, local costs, weather, and a daylight return plan must all be checked. A passenger-carrying motorcycle is not the default group transport plan.</p></div><a class="button button-dark" href="#interest">Register your interest <span>↗</span></a><p class="fine-print">This is an expression of interest only—not a booking or payment request.</p></div>
+      </div>
+    </section>
+
+    <section class="join section" id="interest">
+      <div class="join-copy"><p class="eyebrow">BE PART OF THE START</p><h2>Your next story<br>could start <em>here.</em></h2><p>Tell us what kind of adventure you'd be interested in. We'll use the feedback to understand demand before committing to fees or bookings.</p><div class="join-points"><span>✳ No payment required</span><span>✳ No confirmed trip yet</span><span>✳ Help shape the plan</span></div></div>
+      <form id="interest-form" class="interest-form">
+        <label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Name you go by">
+        <div class="field-row"><div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><div><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+254..."></div></div>
+        <label for="group">How many people might join?</label><select id="group" name="group"><option value="1">Just me</option><option value="2">2 people</option><option value="3-4">3–4 people</option><option value="5+">5 or more</option></select>
+        <label for="transport">Preferred transport</label><select id="transport" name="transport"><option value="organised">Organised group transport</option><option value="own">I'd travel independently</option><option value="unsure">Not sure yet</option></select>
+        <label for="message">Anything you'd like us to know? (optional)</label><textarea id="message" name="message" rows="3" placeholder="Budget, interests, questions..."></textarea>
+        <button class="button button-light submit-button" type="submit">Preview my interest note <span>↗</span></button>
+        <p class="form-disclaimer">Prototype form: your details are not sent or saved anywhere yet. Submitting creates a message you can copy and send yourself.</p>
+        <div id="form-result" class="form-result" role="status" aria-live="polite" hidden></div>
+      </form>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">S</span><span>Sparks <b>Adventures</b></span></a><p>Curiosity takes us places.</p><span>© <span id="year"></span> Sparks Adventures · Early-stage concept</span></footer>
+</body>
+</html>
