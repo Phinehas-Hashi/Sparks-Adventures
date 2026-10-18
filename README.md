@@ -1,21 +1,30 @@
 # Sparks Adventures
 
-A static, mobile-friendly landing page for the early-stage Sparks Adventures travel community.
+Sparks Adventures is an early-stage travel and experiences brand being developed as part of the wider Spark Stack International ecosystem.
 
-## Publish from `main` (no custom Actions workflow)
+## Website
 
-This site uses plain HTML, CSS, and JavaScript so it can be published directly from a branch without a build step.
+- Live site: https://phinehas-hashi.github.io/Sparks-Adventures/
+- Parent company: https://phinehas-hashi.github.io/spark-stack-international/
+- Default branch: `main`
+- Stack: static HTML, CSS and JavaScript
+
+## Publish from a branch
+
+This is a static site and does not require a build step or a custom GitHub Actions workflow.
 
 1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment → Source**, select **Deploy from a branch**.
-3. Choose branch **main** and folder **/(root)**, then click **Save**.
-4. Wait for GitHub Pages to publish. The expected address is https://phinehas-hashi.github.io/Sparks-Adventures/
+2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+3. Choose branch **main** and folder **/(root)**, then save.
+4. Wait for GitHub Pages to publish the latest commit.
 
-There is no custom `.github/workflows/deploy.yml` needed for this static version.
+## Brand and ecosystem relationship
+
+Sparks Adventures keeps its own audience-facing identity while clearly linking to Spark Stack International as its parent technology company. The site links to the parent company at the top of the page, in the ecosystem section, and in the footer. The parent-company link is a public website link, not a live single sign-on or account integration.
 
 ## Interest form status
 
-The form is only a front-end prototype. It does not send or store submitted personal details; it creates a message the visitor can copy. Connect a secure form service or backend only after choosing a privacy notice and data-handling approach.
+The interest form is only a front-end prototype. It does not send or store submitted personal details; it creates a message the visitor can copy. Connect a secure form service or backend only after choosing a privacy notice and data-handling approach.
 
 ## Pilot concept
 
